@@ -1,49 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
-<body>
-    <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Calculadora Básica</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+
 <body>
 
-    <div class="calculadora">
-        <input type="text" id="pantalla" readonly>
-        
-        <div class="botones">
-            <button onclick="limpiar()">C</button>
-            <button onclick="agregar('/')">/</button>
-            <button onclick="agregar('*')">*</button>
-            <button onclick="agregar('-')">-</button>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="imagenes/Captura de pantalla 2026-09-16 125037.png" alt="Bootstrap" width="100"
+                        height="100">
+                </a>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Calculadora</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Suma.html">Suma</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Resta.html">Resta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="División.html">División</a>
 
-            <button onclick="agregar('7')">7</button>
-            <button onclick="agregar('8')">8</button>
-            <button onclick="agregar('9')">9</button>
-            <button onclick="agregar('+')">+</button>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Multiplicación.html">Multiplicación</a>
+                    </li>
 
-            <button onclick="agregar('4')">4</button>
-            <button onclick="agregar('5')">5</button>
-            <button onclick="agregar('6')">6</button>
-
-            <button onclick="agregar('1')">1</button>
-            <button onclick="agregar('2')">2</button>
-            <button onclick="agregar('3')">3</button>
-
-            <button onclick="agregar('0')">0</button>
-            <button class="igual" onclick="calcular()">=</button>
+                </ul>
+            </div>
         </div>
-    </div>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
 
-    <script src="script.js"></script>
-</body>
-</html>
-</body>
 </html>
