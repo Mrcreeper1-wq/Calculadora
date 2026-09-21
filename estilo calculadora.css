@@ -1,7 +1,9 @@
-
-.cajapadre{
-    background-color: rgb(24, 199, 230);
+.cajapadre {
+    background-color: rgb(37, 160, 190);
+    height: 325px;
+    width: 325px;
 }
+
 .imagenes {
     width: 35%;
 }
@@ -10,4 +12,17 @@
     width: 100%;
     height: auto;
     display: block;
+}
+
+.informacion {
+    width: 50%;
+    background-color: cadetblue;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.Principal {
+    display: flex;
+    width: 100%;
+    align-items: center;
 }
