@@ -50,9 +50,31 @@
             </div>
         </div>
     </nav>
+      <div class="calculator-grid"
+        style="display: grid; grid-template-columns: repeat(3, 80px); gap: 10px; max-width: 260px;">
+        <br>
+        
 
+        <input type="text" id="pantalla" readonly>
+        <button onclick="Agregar(1)">1</button>
+        <button onclick="Agregar(2)">2</button>
+        <button onclick="Agregar(3)">3</button>
+        <button onclick="Agregar(4)">4</button>
+        <button onclick="Agregar(5)">5</button>
+        <button onclick="Agregar(6)">6</button>
+        <button onclick="Agregar(7)">7</button>
+        <button onclick="Agregar(8)">8</button>
+        <button onclick="Agregar(9)">9</button>
+        <button onclick="Agregar(0)">0</button>
+        <button onclick="Agregar('+')">+</button>
+        <button onclick="Agregar('-')">-</button>
+        <button onclick="Agregar('*')">x</button>
+        <button onclick="Agregar('/')">÷</button>
+        <button onclick="Calcular('=')">=</button>
+        <button onclick="Eliminar()">Eliminar</button>
+    </div>
+   
     
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
