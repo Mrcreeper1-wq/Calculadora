@@ -17,7 +17,7 @@
     <nav class="navbar navbar-expand-lg bg--bs-secondary-b">
         <nav class="navbar bg-body-tertiary">
             <div class="container">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index.html">
                     <img src="imagenes/Captura de pantalla 2026-09-16 125037.png" alt="Bootstrap" width="100"
                         height="100">
                 </a>
@@ -56,6 +56,8 @@
         <div class="cajapadre">
             <br>
             <input type="text" id="pantalla" readonly>
+            <br>
+            <hr>
             <div class="calculator-grid"
                 style="display: grid; grid-template-columns: repeat(3, 80px); gap: 10px; max-width: 260px;">
                 <br>
@@ -70,57 +72,57 @@
                 <button onclick="Agregar(9)">9</button>
                 <button onclick="Agregar(0)">0</button>
                 <button onclick="Agregar('+')">+</button>
-                <button onclick="Agregar('-')">-</button>
-                <button onclick="Agregar('*')">x</button>
-                <button onclick="Agregar('/')">÷</button>
                 <button onclick="Calcular('=')">=</button>
-                <button onclick="Eliminar()">Eliminar</button>
+                <button onclick="Eliminar()">DEL</button>
             </div>
         </div>
     </center>
     <script src="codigo.js"></script>
 
-     <body style="background: linear-gradient(to right, skyblue, #ffffff, skyblue);">
-    <h1>Suma</h1>
-    <div class="Principal">
-        <div class="imagenes">
-            <div id="carouselExampleFade" class="carousel slide carousel-fade">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ8YNh6zB9geumNDRMLfBT3wT3KRjxr3yTZFwbFmYtLg&s=10"
-                            class="d-block w-100" alt="..." height="500px">
+    <body style="background: linear-gradient(to right, skyblue, #ffffff, skyblue);">
+        <h1>Suma</h1>
+        <div class="Principal">
+            <div class="imagenes">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ8YNh6zB9geumNDRMLfBT3wT3KRjxr3yTZFwbFmYtLg&s=10"
+                                class="d-block w-100" alt="..." height="500px">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRPvI5Uhn4w9zoO8hGw3Ktle-N4tE-KJXiP3rPaD1QyA&s=10"
+                                class="d-block w-100" alt="..." height="500px">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTruzIaeZN-bD3WnU-mbSleDjLTLoS-5ofvT3kFLBvNAw&s=10"
+                                class="d-block w-100" alt="..." height="500px">
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRPvI5Uhn4w9zoO8hGw3Ktle-N4tE-KJXiP3rPaD1QyA&s=10"
-                            class="d-block w-100" alt="..." height="500px">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTruzIaeZN-bD3WnU-mbSleDjLTLoS-5ofvT3kFLBvNAw&s=10"
-                            class="d-block w-100" alt="..." height="500px">
-                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+            </div>
+            <div class="informacion">
+                <h2>Que es la suma</h2>
+                <p>a adición o suma es la operación matemática de composición que consiste en combinar o añadir dos
+                    números o más de la misma especie para obtener una cantidad final o total. La suma también ilustra
+                    el proceso de juntar dos colecciones de objetos con el fin de obtener una sola colección. Por otro
+                    lado, la acción repetitiva de sumar uno, es la forma más básica de contar.</p>
+                </ul>
             </div>
         </div>
-        <div class="informacion">
-            <h2>Que es la suma</h2>
-            <p>a adición o suma es la operación matemática de composición que consiste en combinar o añadir dos números o más de la misma especie para obtener una cantidad final o total. La suma también ilustra el proceso de juntar dos colecciones de objetos con el fin de obtener una sola colección. Por otro lado, la acción repetitiva de sumar uno, es la forma más básica de contar.</p>
-            </ul>
-        </div>
-    </div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
-</body>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+    </body>
 
 </html>
